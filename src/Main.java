@@ -11,7 +11,16 @@ public class Main {
         // laço para faça
         for(int x =0; x < 10; x++ ) {
             System.out.println("Contador =" + x);
-
         }
+
+        // laço gaça enquanto
+        int cont = 1;
+        do {
+            // processo
+            System.out.println(cont);
+            // incremento
+            cont++;
+        }while(cont <= 10);
+
     }
 }
